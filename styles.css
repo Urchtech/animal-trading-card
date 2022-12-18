@@ -1,0 +1,67 @@
+    #card{
+        border: 1px solid black;
+        width: 400px;
+        padding-right: .2em;
+        padding: left .7em;
+        padding-bottom: .6em;
+        box-shadow: 5px 5px rgb(224, 217, 217);
+        background-color: rgb(0, 162, 255)
+    }
+    
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    
+    figure{
+        margin: 0px;
+    }
+
+    img{
+        width: 98%;
+        height: 225px;
+        object-fit: cover;
+        padding-bottom: .8em;
+        margin-left: 5px;
+  
+    }
+
+    .funfact{
+        font-style: italic;
+    }
+
+    mark{ background: none;
+        color: none;
+        font-weight: bold;
+    }
+    
+
+    .cardinfo{
+        border: 3px solid black;
+        margin-left: 5px;
+        width: 373px;
+        padding: 5px; 
+        padding-left: 5px;
+        box-shadow: 2px 2px gray;
+        
+    }
+    
+    hr{
+        border-top: 2px solid black;
+
+    }
+
+    .name{
+        font: bold 20pt sans-serif;
+        padding: 10px;
+        border: 3px solid black;
+        box-shadow: 2px 2px gray;
+        margin: 5px;
+
+    }
+    p, mark{
+        padding-left: 5px;
+        margin: 5px;
+    }
